@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "sha256": "5c4d9dcef67bc5e88b1b7af17e9d3f28841f933a7511dbd53a445c943472b158",
+  "sheets": [
+    "结项说明",
+    "阶段成果清单",
+    "核心描述统计",
+    "变量字典",
+    "变量可用性",
+    "公司变量长表",
+    "价值整合地图",
+    "公司画像",
+    "候选组合暂存",
+    "数据层级与边界",
+    "Week10交接",
+    "冻结验收"
+  ],
+  "counts": {
+    "long_rows": 256,
+    "valid": 215,
+    "structural_na": 38,
+    "not_computable": 3,
+    "repaired": 10,
+    "portfolios": 8,
+    "formula_errors": 0
+  },
+  "assertions": {
+    "sheet_names_exact": true,
+    "long_rows_256": true,
+    "unique_composite_keys": true,
+    "companies_8": true,
+    "variables_32": true,
+    "valid_215": true,
+    "structural_na_38": true,
+    "not_computable_3": true,
+    "repaired_10": true,
+    "not_computable_null": true,
+    "portfolio_rows_8": true,
+    "no_final_selected": true,
+    "all_formula_checks_pass": true,
+    "freeze_status_pass": true,
+    "formula_errors_zero": true
+  },
+  "failed": []
+}

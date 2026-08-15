@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": {
+    "checksums_all_match": true,
+    "descriptive_rows_6": true,
+    "variable_rows_32": true,
+    "availability_rows_32": true,
+    "long_rows_256": true,
+    "integrated_rows_32": true,
+    "profile_rows_8": true,
+    "portfolio_rows_8": true,
+    "status_counts_exact": true,
+    "repaired_cells_10": true,
+    "composite_keys_unique": true,
+    "company_ids_8": true,
+    "variable_ids_32": true,
+    "full_company_variable_grid": true,
+    "not_computable_all_null": true,
+    "not_computable_insta360_only": true,
+    "not_computable_variables_exact": true,
+    "no_final_selected": true,
+    "manifest_counts_exact": true
+  },
+  "failed": [],
+  "status_counts": {
+    "VALID": 215,
+    "STRUCTURAL_NA": 38,
+    "NOT_COMPUTABLE": 3
+  }
+}

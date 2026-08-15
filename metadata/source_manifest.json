@@ -1,0 +1,147 @@
+{
+  "version": "Week9 Research Variables and Descriptive Analysis v1.0",
+  "freeze_date": "2026-08-14",
+  "immutable_base": {
+    "name": "Week8 Standard Dataset v1.0",
+    "attached_zip": "week8_github_submit_v1.0(1).zip",
+    "sha256": "1d8849deab57796ac48f8356ec92aeb027cd52f38be1ae45e48c0434d0a14309"
+  },
+  "stage_outputs": [
+    {
+      "stage_id": "S01",
+      "stage_name": "Stage 1 分析入口",
+      "path": "outputs/week9_stage01/week9_stage01_analysis_entry.xlsx",
+      "status": "FROZEN_INPUT",
+      "purpose": "确认Week8输入、层级和分析边界",
+      "sha256": "b3cc8d07837b292eab6106993b36356814a8f15e2ff051a9f86f61a03012c40e"
+    },
+    {
+      "stage_id": "S02",
+      "stage_name": "Stage 2 基础描述统计",
+      "path": "outputs/week9_stage02/week9_stage02_descriptive_statistics.xlsx",
+      "status": "COMPLETE",
+      "purpose": "公司、轮次、交易、主体与路径的描述统计",
+      "sha256": "23089bc9fea8070dc4c1d6d6f4b65ce5be89e4206e08834641cebf14f2214aa6"
+    },
+    {
+      "stage_id": "S03",
+      "stage_name": "Stage 3 候选变量开发",
+      "path": "outputs/week9_stage03/week9_stage03_candidate_variable_development.xlsx",
+      "status": "COMPLETE",
+      "purpose": "32个候选变量及定义",
+      "sha256": "70bac2a76643722f408af0f5aefa22b7be786b45b475217b6dbc15e9a6cb1205"
+    },
+    {
+      "stage_id": "S04",
+      "stage_name": "Stage 4 可计算性与缺失",
+      "path": "outputs/week9_stage04/week9_stage04_variable_computability_and_missingness.xlsx",
+      "status": "SUPERSEDED_BY_S04C",
+      "purpose": "修复前变量状态审计",
+      "sha256": "3e1fc64ad38cdd35e652724f9edfe9c5cdd0cab32717b22743adab980dcec009"
+    },
+    {
+      "stage_id": "S04B1",
+      "stage_name": "云汉芯城角色范围修复",
+      "path": "outputs/week9_stage04b1/week9_stage04b1_yunhan_role_scope_repair.xlsx",
+      "status": "COMPLETE",
+      "purpose": "角色范围与去重修复",
+      "sha256": "d9ce0c9c75d4d4ed2b4d34f1754f5e4b3eaf9d3899398c3476feb6538af6575b"
+    },
+    {
+      "stage_id": "S04B2",
+      "stage_name": "友升股份PE/VC主体桥接修复",
+      "path": "outputs/week9_stage04b2/week9_stage04b2_yousheng_pevc_party_bridge_repair.xlsx",
+      "status": "COMPLETE",
+      "purpose": "PE/VC主体及轮次桥接",
+      "sha256": "ef968a1ab5b0cc2ba585e4ddbf960b7bd5f7440259743b24b5371573582e3b04"
+    },
+    {
+      "stage_id": "S04B3",
+      "stage_name": "三协电机PE/VC路径修复",
+      "path": "outputs/week9_stage04b3/week9_stage04b3_sanxie_pevc_investment_path_repair.xlsx",
+      "status": "COMPLETE",
+      "purpose": "投资路径证据链修复",
+      "sha256": "e317c33c159e62012a8eae44689e29c56fc8196e17c8ff6b2c47291f53c414eb"
+    },
+    {
+      "stage_id": "S04B4",
+      "stage_name": "黄山谷捷融资主体修复",
+      "path": "outputs/week9_stage04b4/week9_stage04b4_huangshan_financing_party_repair.xlsx",
+      "status": "COMPLETE",
+      "purpose": "融资参与方桥接修复",
+      "sha256": "54b4642f5ec185b25ffdca0ccb3828815a19017503681108e27c77a001b3874a"
+    },
+    {
+      "stage_id": "S04C",
+      "stage_name": "变量可用性冻结",
+      "path": "outputs/week9_stage04c/week9_stage04c_variable_availability_frozen_v1.0.xlsx",
+      "status": "FROZEN",
+      "purpose": "256个公司—变量单元及最终状态",
+      "sha256": "1080c2161c40016eb95ef73732f5e00b6401dad7214b00334ced0674a030e21a"
+    },
+    {
+      "stage_id": "S05A",
+      "stage_name": "价值评估框架",
+      "path": "outputs/week9_stage05a/week9_stage05a_value_evaluation_framework_v1.0.xlsx",
+      "status": "COMPLETE",
+      "purpose": "学术与商业价值评估框架",
+      "sha256": "8a56f7dc003fe83762be14de31a5af4095059c75a4aceb444b6c7b6a1faf86b4"
+    },
+    {
+      "stage_id": "S05B",
+      "stage_name": "学术价值筛选",
+      "path": "outputs/week9_stage05b/week9_stage05b_academic_value_screen_v1.0.xlsx",
+      "status": "COMPLETE",
+      "purpose": "学术用途与研究问题筛选",
+      "sha256": "8049fcbc87bafa72a63a905a49e5935369bde706864e22172a166ba0389491f6"
+    },
+    {
+      "stage_id": "S05C",
+      "stage_name": "商业价值筛选",
+      "path": "outputs/week9_stage05c/week9_stage05c_commercial_value_screen_v1.0.xlsx",
+      "status": "COMPLETE",
+      "purpose": "商业用途与决策问题筛选",
+      "sha256": "0ab22a82f24d924ec440201c458585dc12d11242718ebd47ef2fe10777be4a01"
+    },
+    {
+      "stage_id": "S05D",
+      "stage_name": "学术—商业价值整合",
+      "path": "outputs/week9_stage05d/week9_stage05d_academic_commercial_integration_v1.0.xlsx",
+      "status": "FROZEN",
+      "purpose": "变量角色、组合、轴和闸门",
+      "sha256": "e9cfb4e77163d1debaac0051711832a6d74146d54fcd9f3244cf02df7733739f"
+    },
+    {
+      "stage_id": "S06A",
+      "stage_name": "公司选择矩阵底表",
+      "path": "outputs/week9_stage06a/week9_stage06a_company_selection_matrix_base_v1.0.xlsx",
+      "status": "COMPLETE",
+      "purpose": "公司选择所需变量矩阵底表",
+      "sha256": "0c9104689bfd2510727dfff1c22cbb5e7f4beece939c54f53f75c7329183e8ba"
+    },
+    {
+      "stage_id": "S06B",
+      "stage_name": "公司轴向初评",
+      "path": "outputs/week9_stage06b/week9_stage06b_company_axis_initial_assessment_v1.0.xlsx",
+      "status": "FROZEN",
+      "purpose": "8家公司画像与资格状态",
+      "sha256": "2dc4b20c75fa8f2f239adf23705c812e568c63bd702e7a3aec74a67ca383792d"
+    },
+    {
+      "stage_id": "S06C",
+      "stage_name": "案例互补性候选组合",
+      "path": "outputs/week9_stage06c/week9_stage06c_case_complementarity_candidate_portfolios_v1.0.xlsx",
+      "status": "FROZEN_CANDIDATES",
+      "purpose": "8个无排名候选组合；未最终选择",
+      "sha256": "68e2bdd29b25e5a55eaf7d0b306ea4d52a144ff882296b4234d0ce5db36142dd"
+    }
+  ],
+  "key_inputs": [
+    "S02",
+    "S03",
+    "S04C",
+    "S05D",
+    "S06B",
+    "S06C"
+  ]
+}
