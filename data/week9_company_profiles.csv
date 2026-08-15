@@ -1,0 +1,9 @@
+﻿公司ID,公司名称,轴向量,差异画像,G0,G1,G2,G3,Stage6B资格,关键边界,S6状态,禁止用法
+001282,三联锻造,1|0|0|0|1,单轮、低规模、无确认PE/VC、无转让；适合作为简单融资结构对照，但披露和计算来源限制明显。,PASS_CORE,PASS_CONTRAST,PASS_WITH_LIMITATION,PASS_RULE_APPLIED,ELIGIBLE_WITH_LIMITATIONS,公司级披露限制=1，解释需降级。,PENDING_STAGE6C,不得以分数之和或单一指标决定入选。
+301563,云汉芯城,2|2|2|2|1,多轮、PE/VC参与深且路径多样、主体结构广、转让活跃；实体信息丰富但金额覆盖和披露限制明显。,PASS_CORE,PASS,PASS_WITH_LIMITATION,PASS_RULE_APPLIED,ELIGIBLE_WITH_LIMITATIONS,公司级披露限制=1，解释需降级。,PENDING_STAGE6C,不得以分数之和或单一指标决定入选。
+301581,黄山谷捷,2|0|1|1|1,两轮中等规模且高度集中、无确认PE/VC、存在一次零对价转让；适合作为非PE/VC与交易边界对照。,PASS_CORE,PASS,PASS,PASS_RULE_APPLIED,ELIGIBLE,冻结口径内可进入组合比较，仍不支持因果或优劣推断。,PENDING_STAGE6C,不得以分数之和或单一指标决定入选。
+603418,友升股份,2|1|1|0|1,两轮高规模且集中、PE/VC较晚直接进入、无转让；主体桥接警告较多。,PASS_CORE,PASS,PASS_WITH_WARNING,PASS_RULE_APPLIED,ELIGIBLE_WITH_WARNINGS,主体或PE/VC桥接警告需保留。,PENDING_STAGE6C,不得以分数之和或单一指标决定入选。
+688758,赛分科技,2|0|1|2|2,三轮高规模、无确认PE/VC、有可计算二级交易且数据质量较好。,PASS_CORE,PASS,PASS,PASS_RULE_APPLIED,ELIGIBLE,冻结口径内可进入组合比较，仍不支持因果或优劣推断。,PENDING_STAGE6C,不得以分数之和或单一指标决定入选。
+688775,影石创新,NA|0|0|1|0,融资历史不可重构但存在股权转让；只能作为披露、缺失和方法边界案例。,LIMITED_METHOD_ONLY,BOUNDARY_ONLY,LIMITED_BOUNDARY,PASS_RULE_APPLIED,METHOD_BOUNDARY_ONLY,仅方法/披露边界；S1不评分。,PENDING_STAGE6C,不得以分数之和或单一指标决定入选。
+920100,三协电机,2|1|1|0|1,两轮较低规模、PE/VC较晚直接进入、无转让；路径和证据主要依赖补充摘要。,PASS_CORE,PASS,PASS_WITH_LIMITATION,PASS_RULE_APPLIED,ELIGIBLE_WITH_LIMITATIONS,路径与证据依赖补充摘要。,PENDING_STAGE6C,不得以分数之和或单一指标决定入选。
+920116,星图测控,1|0|1|0|2,单轮、无确认PE/VC、单轮投资方较多、证据密度高；适合作为简单结构对照。,PASS_CORE,PASS_CONTRAST,PASS_WITH_WARNING,PASS_RULE_APPLIED,ELIGIBLE_WITH_WARNINGS,主体或PE/VC桥接警告需保留。,PENDING_STAGE6C,不得以分数之和或单一指标决定入选。
